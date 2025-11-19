@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.tallsystem-flex{
+    display: flex;
+    border: 1px solid black;
+
+}
+
+.tallsystemet h3{
+    font-weight: bold;
+}
+
+.tallsystemet{
+    border: 1px solid black;
+   
+}
+
+table{
+    border: 1px solid black;
+}
+
+th, td{
+    border: solid black 1px;
+
+}
