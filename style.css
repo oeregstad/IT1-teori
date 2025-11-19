@@ -11,6 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  align-items: center;
 }
 
 ol, ul {
@@ -20,4 +21,22 @@ ol, ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.container {
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit)minmax(220px)1fr;
+    margin-top: 1rem;
+    gap: 20px;
+
 }
