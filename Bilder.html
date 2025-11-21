@@ -7,30 +7,153 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="container">
-        <a href="#">Start</a>
-        <a href="#">Om</a>
-        <a href="#">Kontakt</a>
-    </nav>
+    <nav class="nav">
+        <a href="Bilder.html">Bilder - farger og komprimering</a>
+        <a href="binærtall.html">Binærtall</a>
+        <a href="tegnsett.html">Tegnsett</a>
 
     <main class="container">
-      <h1>Bilder - farger og komprimering</h1>
+      <div class="heading">
+        <h1>Bilder - farger og komprimering</h1>
+      </div>
 
       <section class="cards">
         <article class="card">
-          <h3>RGB</h3>
-          <p class="lead"></p>
+          <h3>Bildetyper</h3>
+          <p class="lead">
+Rastergrafikk (bitmap)
+
+Består av piksler.
+
+Kvaliteten avhenger av oppløsning (f.eks. 1920×1080).
+
+Vanlig for fotografier.
+
+Filtyper: JPEG, PNG, GIF, BMP, TIFF.
+
+Vektorgrafikk
+
+Består av matematiske kurver og former.
+
+Kan skaleres uendelig uten kvalitetstap.
+
+Vanlig for logoer, illustrasjoner, ikoner.
+
+Filtyper: SVG, AI, EPS, PDF.</p>
         </article>
 
         <article class="card">
-          <h3>CMYK</h3>
-          <p class="lead"></p>
+          <h3>Fargemodeller</h3>
+          <p class="lead"> RGB (Red, Green, Blue)
+
+Additiv fargemodell — brukes på skjermer.
+
+Hver fargekanal: 0–255 (8-bit).
+
+Totalt ~16,7 millioner farger (24-bit).
+
+CMYK (Cyan, Magenta, Yellow, Key/Black)
+
+Subtraktiv fargemodell — brukes i trykk.
+
+Ikke egnet for skjermer.
+
+Farger ser annerledes ut på papir enn på skjerm.
+
+HSV/HSL (Hue, Saturation, Value/Lightness)
+
+Alternativ måte å representere farger på.
+
+Mer intuitiv for design (fargetone, metning, lysstyrke).
+
+Bitdybde
+
+Hvor mange bits som brukes per piksel.
+
+Eksempler:
+
+1-bit: svart/hvitt.
+
+8-bit: 256 nivåer av grå.
+
+24-bit: standard RGB (16,7 mill. farger).
+
+32-bit: RGB + alfa (gjennomsiktighet).</p>
         </article>
 
         <article class="card">
-          <h3>Oppløsning</h3>
-          <p class="lead"></p>
+          <h3>Komprimering</h3>
+          <p class="lead">
+Det finnes to hovedtyper:
+
+(A) Tapende komprimering (Lossy)
+
+Filen blir mindre, men noe kvalitet går tapt.
+
+Typisk for bilder hvor litt tap ikke merkes.
+
+Eksempler:
+
+JPEG/JPG
+
+WebP (lossy modus)
+
+HEIF/HEIC
+
+Fordeler:
+
+Små filer
+
+Rask innlasting på web
+
+Ulemper:
+
+Artefakter (blokker, støy)
+
+Gir dårlig kvalitet ved mange lagringer</p>
         </article>
+
+        <article class="card">
+          <h3>Vanlige filformater og hva de passer til</h3>
+          <p class="lead">Format	Type	Bruk
+JPEG	Lossy	Bilder/foto, web, små filer
+PNG	Lossless	Grafikk, logo, gjennomsiktighet
+GIF	Lossless	Enkle animasjoner, få farger
+WEBP	Både lossy/lossless	Moderne webformat
+SVG	Vektor	Ikoner, logoer, illustrasjoner
+HEIC/HEIF	Lossy	Mobilbilder (iPhone)</p>
+        </article>
+
+        <article class="card">
+          <h3>Oppløsning og DPI</h3>
+          <p class="lead">Oppløsning
+
+Antall piksler: f.eks. 3840×2160.
+
+Høyere oppløsning → bedre kvalitet → større fil.
+
+DPI (Dots Per Inch)
+
+Relevante for trykk, ikke skjerm.
+
+300 DPI = standard printkvalitet.
+
+72 DPI = gammelt skjermstandard (mindre relevant nå).</p>
+        </article>
+
+        <article class="card">
+        <h3>Metadata</h3>
+        <p class="lead">Bilder kan lagre ekstra informasjon (EXIF):
+
+Kamera, objektiv, lukkerhastighet
+
+Dato og sted (GPS)
+
+Programvare brukt
+
+Fargeprofil (sRGB, AdobeRGB)
+
+For personvern fjerner man ofte metadata før opplasting.</p>
       </section>
     </main>
 </body>
